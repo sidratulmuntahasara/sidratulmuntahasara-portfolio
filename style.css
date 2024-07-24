@@ -172,8 +172,38 @@ animation: none;
 }
 
 .about{
-    display: block;
     justify-content: center;
     text-align: center;
     padding-left: 2rem;
+}
+
+.cont-parent{
+    display: flex;
+    padding: 20px;
+    margin-top:1rem;
+    font-size: 25px;
+}
+
+.cont-child{
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+}
+
+.child1{
+    border-top: 1px solid rgba(128, 128, 128, 0.5);
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
+    float: left;
+    width: 50%;
+    text-align: left !important;
+}
+
+.child2{
+    border-top: 1px solid rgba(128, 128, 128, 0.5);
+    border-left: 1px solid rgba(128, 128, 128, 0.5);
+    float: right;
+    width: 50%;
 }
