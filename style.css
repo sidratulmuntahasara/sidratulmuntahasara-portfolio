@@ -1,0 +1,85 @@
+:root{
+    --deep-purple: #150E1F;
+    --yellow: #E6DB74;
+    --white: #FFFFFF;
+    --black: #000000;
+    --light-blue: lightblue;
+    --light-purple: #9A99FF;
+    --grey: #A9A9A9;
+}
+
+body{
+    display: inline-flex;
+    background-color: var(--deep-purple);
+    font-family: 'Pixelify Sans';
+    letter-spacing: 0.5px;
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+    width: 2rem;
+    height: 100%;
+    padding-right: 25px;
+    overflow: hidden;
+    border-right: 1px solid var(--light-purple);
+    color: var(--grey);
+    opacity: 0.5;
+    line-height: 1.7rem;
+    text-align: right;
+    box-shadow: #9c7ec7 1px 0px 15px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 89vw;
+}
+
+.logo{
+    float: left;
+}
+
+nav{
+    float: right;
+}
+
+nav ul {    
+    display: flex;
+    list-style-type: none;
+    float: right;
+    align-items: center;
+}
+
+nav ul li {
+    padding-left: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 18px;
+}
+
+nav ul li a {
+    color: var(--yellow);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: var(--light-purple);
+}
+
+nav ul li a:focus {
+    color: var(--light-blue);
+}
+
+.full_body{
+    display: inline;
+    margin-left: 2rem;
+    margin-right: 4rem;
+}
