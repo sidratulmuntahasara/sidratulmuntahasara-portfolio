@@ -224,17 +224,18 @@ animation: none;
 .portfolio .porto-child{ 
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
-.portfolio .child1{
+.porto-parent .child1{
     border-top: 1px solid rgba(128, 128, 128, 0.5);
     border-right: 1px solid rgba(128, 128, 128, 0.5);
     float: left;
     width: 50%;
-    text-align: left !important;
+    text-align: center !important;
 }
 
-.portfolio .child2{
+.porto-parent .child2{
     border-top: 1px solid rgba(128, 128, 128, 0.5);
     border-left: 1px solid rgba(128, 128, 128, 0.5);
     float: right;
