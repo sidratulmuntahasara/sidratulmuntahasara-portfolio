@@ -175,6 +175,7 @@ animation: none;
     justify-content: center;
     text-align: center;
     padding-left: 2rem;
+    margin-bottom: 5rem;
 }
 
 .cont-parent{
@@ -202,6 +203,38 @@ animation: none;
 }
 
 .child2{
+    border-top: 1px solid rgba(128, 128, 128, 0.5);
+    border-left: 1px solid rgba(128, 128, 128, 0.5);
+    float: right;
+    width: 50%;
+}
+
+.portfolio{
+    justify-content: center;
+    text-align: center;
+    padding-left: 2rem;
+    margin-bottom: 5rem;
+}
+
+.portfolio .porto-parent{
+    display: flex;
+    font-size: 25px;
+}
+
+.portfolio .porto-child{ 
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio .child1{
+    border-top: 1px solid rgba(128, 128, 128, 0.5);
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
+    float: left;
+    width: 50%;
+    text-align: left !important;
+}
+
+.portfolio .child2{
     border-top: 1px solid rgba(128, 128, 128, 0.5);
     border-left: 1px solid rgba(128, 128, 128, 0.5);
     float: right;
