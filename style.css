@@ -8,6 +8,10 @@
     --grey: #A9A9A9;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     display: flex;
     background-color: var(--deep-purple);
@@ -40,6 +44,7 @@ header {
     align-items: center;
     margin-bottom: 40px;
     width: 89vw;
+    margin-left: 2rem;
 }
 
 .logo{
@@ -79,7 +84,6 @@ nav ul li a:focus {
 
 .full_body{
     display: inline;
-    margin-left: 2rem;
     margin-right: 4rem;
     justify-content: center;
     align-items: center;
@@ -93,26 +97,30 @@ nav ul li a:focus {
 }
 
 .intro .introanim{
-    font-weight: 200;
   text-align: center;
-  font-size: 7em;
-  color: #000;
+  font-size: 65px;
   padding: 0;
   line-height: 0.8em !important;
   text-transform: none;
   font-weight: 600;
   color: var(--white);
   overflow: hidden;
+  display: ruby;
+}
+
+.introanim a{
+    color: var(--light-purple);
+    text-decoration: none;
+    pointer-events: none;
 }
 
 span.txt-rotate {
     font-weight: normal;
-    color: var(--yellow);
   }
 
 span.cursor {
     display: inline-block;
-    background-color: #ccc;
+    background-color: #ffffff;
     margin-left: 0.1rem;
     width: 3px;
     animation: blink 1s infinite;
@@ -122,9 +130,50 @@ span.cursor.typing {
 animation: none;
 }
 @keyframes blink {
-0%  { background-color: #ccc; }
-49% { background-color: #ccc; }
+0%  { background-color: #ffffff; }
+49% { background-color: #ffffff; }
 50% { background-color: transparent; }
 99% { background-color: transparent; }
 100%  { background-color: #ccc; }
+}
+
+.scrolldownbtn{
+    margin-top: 20px;
+    transform: rotate(90deg);
+    font-size: 3rem;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    color: var(--white);
+    font-family: 'Pixelify Sans';
+    animation: scroll 1s infinite;
+}
+
+@keyframes scroll {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+}
+
+.scrollingimage{
+    background-image: url(./assets/scrolling_intro_img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.about{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-left: 2rem;
 }
