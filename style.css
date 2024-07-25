@@ -465,3 +465,48 @@ animation: none;
     color: var(--white); 
     box-shadow: var(--light-purple) 1px 0px 15px;
 }
+
+/*Form Formatting*/
+form > * {
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    text-align: left;
+    font-size: 20px;
+}
+
+/*Text input field formatting*/
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-bottom: 1px solid var(--white);
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-radius: 4px;
+    background: transparent;
+    color: var(--light-blue);
+    font-family: 'pixelify sans';
+}
+
+
+/*Form button*/
+.contact button {
+    font-family: 'pixelify sans';
+    width: 20%;
+    font-weight: 500;
+    color: var(--black);
+    background-color: var(--light-blue);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 7rem;
+    text-align: center;
+}
+
+/*Form Button when Hovered Formatting*/
+.contact button:hover {
+    background: linear-gradient(45deg, var(--light-purple), var(--yellow));
+}
