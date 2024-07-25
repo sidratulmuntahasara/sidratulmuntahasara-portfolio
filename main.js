@@ -49,3 +49,23 @@ window.onload = function() {
       }
   }
 };
+
+
+
+// ===================== for the see more button =====================
+function changeReadMore() { 
+  const mycontent = 
+      document.getElementById('mybox1id'); 
+  const mybutton = 
+      document.getElementById('mybuttonid'); 
+
+  if (mycontent.style.display === 'none'
+      || mycontent.style.display === '') { 
+      mycontent.style.display = 'block'; 
+      mybutton.textContent = 'Bro this is too much!'; 
+  } else { 
+      mycontent.style.display = 'none'; 
+      mybutton.textContent = '{ See_Moreee }'; 
+  } 
+}
+
