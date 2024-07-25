@@ -20,21 +20,23 @@ body{
     color: var(--white);
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .sidebar{
     font-family: monospace;
     font-size: 18px;
-    display: inline;
     width: 2rem;
     height: 100%;
-    padding-right: 25px;
+    text-align: right;
+    padding-right: 0.5rem;
+    padding-left: 2px;
+    position: fixed;
     overflow: hidden;
     border-right: 1px solid var(--light-purple);
     color: var(--grey);
     opacity: 0.5;
     line-height: 1.7rem;
-    text-align: right;
     box-shadow: #9c7ec7 1px 0px 15px;
 }
 
@@ -44,7 +46,7 @@ header {
     align-items: center;
     margin-bottom: 40px;
     width: 89vw;
-    margin-left: 2rem;
+    margin-left: 4rem;
 }
 
 .logo{
@@ -84,7 +86,6 @@ nav ul li a:focus {
 
 .full_body{
     display: inline;
-    margin-right: 4rem;
     justify-content: center;
     align-items: center;
 }
@@ -219,6 +220,10 @@ animation: none;
 .portfolio .porto-parent{
     display: flex;
     font-size: 25px;
+}
+
+.porto-parent p{
+    font-size: 18px;
 }
 
 .portfolio .porto-child{ 
