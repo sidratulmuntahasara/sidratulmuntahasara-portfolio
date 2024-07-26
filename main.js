@@ -79,3 +79,7 @@ function toggleMenu() {
         x.className = "navbar";
     }
 }
+
+
+
+// ===================== gsap scrolling animations =====================
