@@ -675,6 +675,16 @@ input, textarea {
         height: 40vh;
     }
 
+    .gotopbtn{
+        bottom: 50px !important;
+        right: 20px !important ;
+    }
+
+    .gotopbtn img{
+        width: 70px !important;
+        height: 65px !important;
+    }
+
 }
 
 /*
