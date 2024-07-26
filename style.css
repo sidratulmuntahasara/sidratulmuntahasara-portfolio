@@ -599,6 +599,10 @@ input, textarea {
         width: 100%;
     }
 
+    .cont-parent .child1 h1{
+        font-size: 25px;
+    }
+
 
 }
 
@@ -751,46 +755,59 @@ input, textarea {
         height: 65px !important;
     }
 
-}
-
-/*
-
-
-@media (max-width: 576px) {
-    header {
+    .cont-parent .cont-child {
         padding: 10px;
     }
 
-    .logo h2 {
-        font-size: 1.2em;
+    .cont-parent .child1 h1{
+        font-size: 10px !important;
     }
 
-    nav ul {
-        gap: 5px;
+    .cont-parent .child2 p{
+        font-size: 7px !important;
     }
 
-    .intro {
-        padding: 20px 0;
+    .mytabs label {
+        padding: 10px;
     }
 
-    .intro h1, .typewrite {
-        font-size: 1em;
+    .resume p{
+        font-size: 12px !important;
     }
 
-    .about img, .portfolio img {
-        width: 100%;
-        height: auto;
+    .portfolio p{
+        font-size: 10px !important;
     }
 
-    .about, .portfolio, .resume, .contact {
-        padding: 20px 10px;
+    .portfolio .porto-parent .child2 iframe{
+        width: 100% !important;
+        height: 100% !important;
     }
 
-    .portfolio .porto-child, .resume .porto-child, .contact .porto-child {
-        align-items: flex-start;
+    .portfolio .porto-parent .porto-child h5{
+        font-size: 15px;
     }
-} */
 
+    .icon-bar a {
+        padding: 5px !important;
+      }
+        
+
+}
+
+@media screen and (max-width: 426px) {
+
+    .mytabs .tab p{
+        padding-left: 5px !important;
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .mytabs label {
+        font-size: 10px !important;
+    }
+}
 
 .gotopbtn
 {
@@ -809,3 +826,54 @@ input, textarea {
   scroll-behavior: smooth;
 }
 
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .whatsapp {
+    background: rgb(65, 219, 14);
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .outlook {
+    background: #bb0000;
+    color: white;
+  }
