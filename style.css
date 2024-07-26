@@ -857,27 +857,27 @@ input, textarea {
     background-color: #000;
   }
   
-  .whatsapp {
-    background: rgb(65, 219, 14);
+  .linkedin {
+    background: #40088d;
     color: white;
   }
   
   .twitter {
-    background: #55ACEE;
+    background: #7115f1;
     color: white;
   }
-  
+
   .google {
-    background: #dd4b39;
+    background: #8843e9;
     color: white;
   }
-  
-  .linkedin {
-    background: #007bb5;
+
+  .whatsapp {
+    background: #d3b6fd;
     color: white;
   }
   
   .outlook {
-    background: #bb0000;
+    background: #ae78f9;
     color: white;
   }
