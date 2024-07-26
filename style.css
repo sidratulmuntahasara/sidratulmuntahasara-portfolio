@@ -512,7 +512,9 @@ input, textarea {
 }
 
 
-/*OLD*/
+.navbar .icon{
+    display: none;
+}
 
 @media (max-width: 1024px) {
     /* header {
@@ -547,50 +549,6 @@ input, textarea {
 }
 
 @media screen and (max-width: 768px) {
-    /* 
-    nav ul {
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-end;
-        display: inline;
-        gap: 10px;
-    }
-
-    .navbar a {
-        display: none;
-    }
-    
-    .navbar a.icon {
-        align-items: right;
-        float: right;
-        display: block;
-        font-size: 25px;
-        font-weight: 600;
-    }
-
-    .navbar img{
-        display: none;
-    }
-
-    .navbar.responsive {position: relative;}
-    .navbar.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    .navbar.responsive a {
-        float: right;
-        display: flex;
-        text-align: left;
-    }
-
-    .navbar.responsive .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
-    } */
-
     .navbar .navlink {
         font-size: 12px;
     } 
@@ -662,14 +620,58 @@ input, textarea {
     }
 }
 
-/*
 @media screen and (max-width: 600px) {
-
-    .sidebar a {
-        text-align: center;
-        float: none;
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        display: inline;
+        gap: 10px;
     }
+
+    .navbar a {
+        display: none;
+    }
+    
+    .navbar a.icon {
+        align-items: right;
+        float: right;
+        display: flex;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .navbar img{
+        display: none;
+    }
+
+    .navbar.responsive {position: relative;}
+    .navbar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navbar.responsive a {
+        float: left;
+        display: grid;
+        text-align: left;
+    }
+
+    .navbar.responsive .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .navbar .icon{
+        display: flex;
+    }
+
 }
+
+/*
+
 
 @media (max-width: 576px) {
     header {
