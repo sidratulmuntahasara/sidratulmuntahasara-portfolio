@@ -665,6 +665,16 @@ input, textarea {
         width: 100%;
     }
 
+    .logo h2{
+        font-size: 1em !important;
+    }
+
+
+    .scrollingimage{
+        content: url(./assets/scrolling_intro_img.png);
+        height: 40vh;
+    }
+
 }
 
 /*
