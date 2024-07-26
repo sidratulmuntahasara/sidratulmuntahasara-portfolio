@@ -80,6 +80,3 @@ function toggleMenu() {
     }
 }
 
-
-
-// ===================== gsap scrolling animations =====================

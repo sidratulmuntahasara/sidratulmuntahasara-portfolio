@@ -340,6 +340,8 @@ updateCounter();
   gsap.to(".counter", 0.25, {
   delay: 3.5,
   opacity: 0,
+  display: "none",
+  zIndex: -100,
   });
   gsap.to(".bar", 1.5, {
   delay: 3.5,
@@ -348,7 +350,17 @@ updateCounter();
   amount: 0.5,
   },
   ease: "power4.inOut",
+  display: "none",
   });
+
+  gsap.to(".overlay", 1.5, {
+    delay: 3.6,
+  height: 0,
+  ease: "power4.inOut",
+  display: "none",
+  zIndex: -100,
+  }
+  )
 
   gsap.from(".scrollhead", 1.5, {
     delay: 4,
@@ -357,6 +369,7 @@ updateCounter();
       amount: 0.5,
     },
     ease: "power4.inOut",
+  display: "none",
   });
 
 

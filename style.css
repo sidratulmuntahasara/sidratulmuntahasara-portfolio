@@ -46,7 +46,7 @@ a{
     position: relative;
     font-family: 'Pixelify Sans';
     font-size: 29vw;
-    color: #eee;
+    color: var(--white);
     line-height: 1.125;
 }
 
@@ -73,7 +73,7 @@ a{
     justify-content: flex-end;
     align-items: flex-end;
     z-index: 10000;
-    color: #e1ffff;
+    color: rgb(207, 179, 248);
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 1%;
@@ -602,7 +602,7 @@ input, textarea {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .navbar .navlink {
         font-size: 12px;
     } 
@@ -671,6 +671,12 @@ input, textarea {
 
     footer{
         font-size: 10px;
+    }
+
+    .counter{
+        padding-right: 40px;
+        padding-bottom: 40px;
+        font-size: 30vw !important;
     }
 }
 
