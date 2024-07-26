@@ -674,9 +674,15 @@ input, textarea {
     }
 
     .counter{
-        padding-right: 40px;
-        padding-bottom: 40px;
-        font-size: 30vw !important;
+        display: none;
+    }
+
+    .overlay{
+        display: none;
+    }
+
+    .scrollhead{
+        display: none;
     }
 }
 
