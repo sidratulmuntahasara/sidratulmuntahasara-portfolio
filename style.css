@@ -624,9 +624,6 @@ input, textarea {
     nav ul {
         flex-direction: column;
         align-items: flex-start;
-        justify-content: flex-end;
-        display: inline;
-        gap: 10px;
     }
 
     .navbar a {
@@ -645,27 +642,27 @@ input, textarea {
         display: none;
     }
 
-    .navbar.responsive {position: relative;}
+    .navbar.responsive {position:relative;}
     .navbar.responsive .icon {
-        position: absolute;
         right: 0;
         top: 0;
     }
 
     .navbar.responsive a {
-        float: left;
+        float: right;
         display: grid;
-        text-align: left;
-    }
-
-    .navbar.responsive .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
+        grid-template-columns: 200px 1fr;
+        margin-right: 3px;
+        padding-right: 0;
+        text-align: right;
     }
 
     .navbar .icon{
         display: flex;
+    }
+
+    .logo{
+        width: 100%;
     }
 
 }
