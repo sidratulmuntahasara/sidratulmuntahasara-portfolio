@@ -519,8 +519,6 @@ animation: none;
     color: var(--white); 
     box-shadow: var(--light-purple) 1px 0px 15px;
 }
-
-/*Form Formatting*/
 form > * {
     display: block;
     width: 70%;
@@ -528,8 +526,6 @@ form > * {
     text-align: left;
     font-size: 20px;
 }
-
-/*Text input field formatting*/
 input, textarea {
     padding: 10px;
     margin-top: 5px;
@@ -542,9 +538,6 @@ input, textarea {
     color: var(--light-blue);
     font-family: 'pixelify sans';
 }
-
-
-/*Form button*/
 .contact button {
     font-family: 'pixelify sans';
     width: 20%;
@@ -559,8 +552,6 @@ input, textarea {
     margin-bottom: 7rem;
     text-align: center;
 }
-
-/*Form Button when Hovered Formatting*/
 .contact button:hover {
     background: linear-gradient(45deg, var(--light-purple), var(--yellow));
 }
@@ -571,26 +562,6 @@ input, textarea {
 }
 
 @media (max-width: 1024px) {
-    /* header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .intro h1, .typewrite {
-        font-size: 1.5em;
-    }
-
-    .about img, .portfolio img {
-        width: 50%;
-        height: auto;
-    }
-
-    .portfolio .porto-child, .resume .porto-child, .contact .porto-child {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    } */
-
     .resume img{
         width: 100%;
     }
@@ -602,7 +573,6 @@ input, textarea {
     .cont-parent .child1 h1{
         font-size: 25px;
     }
-
 
 }
 
@@ -621,7 +591,7 @@ input, textarea {
 
 
     .full_body {
-        margin-right: 0; /* Remove left margin */
+        margin-right: 0;
         overflow-x: hidden;
     }
 
@@ -829,10 +799,6 @@ input, textarea {
   border-radius: 50%;
   scroll-behavior: smooth;
 }
-
-
-
-/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
     position: fixed;
     top: 50%;
@@ -842,7 +808,6 @@ input, textarea {
     transform: translateY(-50%);
   }
   
-  /* Style the icon bar links */
   .icon-bar a {
     display: block;
     text-align: center;
@@ -852,7 +817,6 @@ input, textarea {
     font-size: 20px;
   }
   
-  /* Style the social media icons with color, if you want */
   .icon-bar a:hover {
     background-color: #000;
   }
