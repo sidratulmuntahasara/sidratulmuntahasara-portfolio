@@ -612,7 +612,7 @@ input, textarea {
     }
 
     .scrollingimage{
-        content: url(./assets/scrolling_intro_img.png);
+        content: url(./assets/scrolling_intro_img.avif);
     }
 
     h1{
@@ -711,7 +711,7 @@ input, textarea {
 
 
     .scrollingimage{
-        content: url(./assets/scrolling_intro_img.png);
+        content: url(./assets/scrolling_intro_img.avif);
         height: 40vh;
     }
 
@@ -725,16 +725,32 @@ input, textarea {
         height: 65px !important;
     }
 
+    .cont-parent{
+        display: block;
+        width: 85%;
+    }
+
     .cont-parent .cont-child {
         padding: 10px;
+        width: 80%;
+        border: none;
+    }
+    .cont-parent .child1{
+        text-align: left !important;
+        width: 90% !important;
+    }
+
+    .cont-parent .child2{
+        text-align: right !important;
+        width: 90% !important;
     }
 
     .cont-parent .child1 h1{
-        font-size: 10px !important;
+        font-size: 20px !important;
     }
 
     .cont-parent .child2 p{
-        font-size: 7px !important;
+        font-size: 15px !important;
     }
 
     .mytabs label {
@@ -743,6 +759,11 @@ input, textarea {
 
     .resume p{
         font-size: 12px !important;
+    }
+
+    .portfolio{
+        padding-left: 5px !important;
+        width: 100% !important;
     }
 
     .portfolio p{
@@ -755,7 +776,21 @@ input, textarea {
     }
 
     .portfolio .porto-parent .porto-child h5{
-        font-size: 15px;
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .portfolio .porto-parent .porto-child p{
+        font-size: 15px !important;
+    }
+
+    #about {
+        margin-bottom: 5px !important;
+    }
+
+    .portfolio .breaker{
+        font-size: 10px !important;
+        margin-bottom: 0 !important;
     }
 
     .icon-bar a {
